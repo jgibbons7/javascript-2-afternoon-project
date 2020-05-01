@@ -119,14 +119,15 @@ user2.email = 'bryan.smith@devmounta.in'
   Create an empty object called methodCollection.
 */
 
-//Code Here
+let methodCollection = {}
 
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
   One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello' to the console.
 */
 
-//Code Here
+methodCollection.alertHello = alert('hello')
+methodCollection.logHello = console.log(hello)
 
 /*
   Now call your alertHello and logHello methods.

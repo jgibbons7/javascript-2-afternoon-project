@@ -148,9 +148,10 @@ uniq(names, function(uniqArr){
 
 function each(arr, cb){
   for (let i = 0; i < arr.length; i++) {
-    
+    cb(arr) 
+      
+    }
   }
-}
 
 // Do not edit the code below.
 each(names, function(item, indice){
@@ -167,7 +168,9 @@ each(names, function(item, indice){
   When the correct user object is found, invoke the callback with the user object as an argument.
 */
 
-// Code here
+function getUserById(arr, id, cb) {
+  
+}
 
 // Do not edit the code below.
 var users = [
